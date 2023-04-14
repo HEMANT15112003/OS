@@ -47,5 +47,6 @@ for(m = 0; m < pages; m++)
        }
 } 
 printf("\nTotal Page Faults:\t%d\n", pageFaults);
+printf("\ntotal page hits:\t%d\n",(pages-pageFaults));
 return 0;
 }
